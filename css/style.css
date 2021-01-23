@@ -1080,3 +1080,7 @@ img.dowloadlink {
 .row_footer {
     margin-top: 15px;
 }
+
+p.footer_contact_p {
+    margin: 5px 0 0 45px;
+}
