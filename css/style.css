@@ -50,9 +50,12 @@ h6 {
     text-transform: capitalize !important;
 }
 
-p,a{
+p,
+a {
     text-transform: capitalize !important;
 }
+
+
 /* Prelaoder */
 
 #preloader {
@@ -154,6 +157,7 @@ p,a{
     background-size: cover;
     position: relative;
 }
+
 #hero:before {
     content: "";
     background: rgba(0, 0, 0, 0.6);
@@ -185,11 +189,13 @@ p,a{
     text-transform: uppercase;
     color: #fff;
 }
+
 #hero h2 {
     color: #eee;
     margin-bottom: 50px;
     font-size: 24px;
 }
+
 #hero .btn-get-started {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
@@ -224,21 +230,25 @@ p,a{
     padding: 0;
     list-style: none;
 }
+
 .nav-menu ul {
     top: 100%;
     left: 0;
     z-index: 99;
 }
+
 .nav-menu ul li {
     min-width: 100% !important;
 }
+
 .nav-menu li {
     position: relative;
     white-space: nowrap;
 }
+
 .nav-menu ul.megamenu_ul {
-        margin: 0 0 0 0;
- }                                    
+    margin: 0 0 0 0;
+}
 
 .nav-menu>li {
     float: left;
@@ -284,6 +294,7 @@ p,a{
     margin-left: 100px;
 }
 
+
 /* Nav Meu Styling */
 
 .nav-menu a {
@@ -300,7 +311,7 @@ p,a{
 
 .header_icon a,
 .header_icon i {
-    color: #13328a !important;
+    color: #13328a;
 }
 
 .nav-menu>li {
@@ -382,6 +393,7 @@ p,a{
 #mobile-nav-toggle i {
     color: #fff;
 }
+
 
 /* Mobile Nav Styling */
 
@@ -483,9 +495,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 0 !important;
     margin-top: 92px;
 }
+
 .carousel-indicators .active {
     background-color: #25446f;
 }
+
 
 /*--------------------------------------------------------------
 # Sections 1 
@@ -560,6 +574,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
     height: 100%;
 }
+
+
 /* cell number */
 
 .gallery-cell:before {
@@ -586,6 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .gallery .js-flickity .flickity-enabled .is-draggable {
     height: 250px;
 }
+
 
 /* notification */
 
@@ -663,13 +680,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 40px;
     padding: 0px 13px;
 }
-.form-control2{
+
+.form-control2 {
     margin-left: 15px !important;
 }
-.form-control-date{
+
+.form-control-date_index_page {
     width: 164px !important;
     padding: 0px 10px !important;
 }
+
 .booking-form .form-control::-webkit-input-placeholder {
     color: rgba(82, 82, 84, 0.4);
 }
@@ -826,6 +846,7 @@ ul {
     background: #0e2e88;
     position: relative;
 }
+
 .footer-text p {
     margin-bottom: 14px;
     font-size: 14px;
@@ -874,6 +895,7 @@ ul {
     font-weight: 600;
     margin-bottom: 40px;
     position: relative;
+    left: -30px;
 }
 
 .OurServicesHeading h3::before {
@@ -883,7 +905,7 @@ ul {
 .footer-widget-heading h3::before {
     content: "";
     position: absolute;
-    left: 75px;
+    left: 125px;
     bottom: -15px;
     height: 2px;
     width: 50px;
@@ -895,10 +917,6 @@ ul {
     width: 100%;
     margin-bottom: 2px;
     padding-left: 30px;
-}
-
-.OurServices li {
-    padding-left: 98px !important;
 }
 
 .footer-widget ul li a:hover {
@@ -944,14 +962,14 @@ ul {
 }
 
 .copyright-area {
-    background:white;
+    background: white;
     padding: 25px 0;
 }
 
 .copyright-text p {
     margin: 0;
     font-size: 14px;
-    color:#0e2e88;
+    color: #0e2e88;
 }
 
 .copyright-text p a {
@@ -985,6 +1003,7 @@ ul {
     margin: 0 60px;
 }
 
+
 /* mega menu */
 
 .navbar .dropdown-menu div[class*="col"] {
@@ -996,44 +1015,68 @@ ul {
     background-color: #0060c8!important;
 }
 
-
 img.dowloadlink {
     width: 90px;
 }
 
 .dowloadlink_heading h3::before {
-    left: 122px !important;
+    left: 180px !important;
 }
 
 .payment_option_icon {
     font-size: 30px;
 }
 
+
 /* modal */
+
 .btn-secondary {
     color: #fff;
     background-color: #0c3f8a !important;
-border-color: #0c3f8a !important;
+    border-color: #0c3f8a !important;
 }
-.login_menu{
-  display: flex;
-  justify-content: flex-end;
+
+.login_menu {
+    display: flex;
+    justify-content: flex-end;
 }
+
+
 /*  login page css */
-.login_header{
+
+.login_header {
     display: flex;
     justify-content: space-between;
 }
-.support{
+
+.support {
     padding-top: 30px;
 }
-.support a i{
+
+.support a i {
     font-size: 25px;
     margin: 10px;
 }
-.loginbanner{
+
+.loginbanner {
     background-image: url('../img/banner3.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo_content p {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin: 30px 0 0 45px;
+}
+
+.row_footer {
+    margin-top: 15px;
 }
